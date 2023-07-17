@@ -34,11 +34,42 @@
     h1{
         padding-bottom: 20px;
     }
+    header{
+        position: fixed;
+    }
     </style>
 </head>
 
 <body>
-    <header>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-right" style="background-color: #1ea78d; border-bottom:5px solid black; padding: 15px; font-size: medium;">
+        <a class="navbar-brand" href="#">Syed International</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Thermal">Thermal Blanket</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kitchen">Kitchen Towel</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#baby">Baby Blankets</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#floursack">Floursack Towel</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#terry">Terry Towels</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    
         <!-- place navbar here -->
 
         <!-- As a heading -->
@@ -55,40 +86,15 @@
             </ul>
         </nav> -->
 
-        <nav class="navbar navbar-expand-lg navbar-right" style="background-color: #1ea78d; border-bottom:5px solid black;">
-            <a class="navbar-brand" href="#">Syed International</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#Thermal">Thermal Blanket</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#kitchen">Kitchen Towel</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#baby">Baby Blankets</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#floursack">Floursack Towel</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#terry">Terry Towels</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-    </header>
+       
+   
     <main style=" padding: 50px;">
        <section id="Thermal">
         <H1>THERMAL BLANKETS</H1>
         <div class="row row-cols-1 row-cols-md-4 g-4">
+            
             <div class="col">
+                
                 <div class="card h-100">
                     <img src="img/products/1.png.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -756,6 +762,7 @@
             </div>
         </div>
     </footer>
+    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
